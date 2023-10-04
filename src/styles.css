@@ -1,6 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
 * {
-  background-color: #eeeeee;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -8,7 +7,9 @@
   font-family: "segoe UI";
   line-height: 100%;
 }
-
+body {
+  background-color: #eeeeee;
+}
 a {
   text-decoration: none;
 }

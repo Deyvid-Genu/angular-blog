@@ -1,3 +1,7 @@
+.menu-background {
+  background-color: #222222;
+  box-shadow: 0px 2px 3px #000;
+}
 .menu {
   display: flex;
   justify-content: center;
@@ -5,4 +9,9 @@
 .menu > li {
   list-style: none;
   padding: 0.5rem;
+}
+
+.menu > li > a,
+.menu > li > span {
+  color: #dddddd;
 }

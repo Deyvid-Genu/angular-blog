@@ -1,7 +1,7 @@
 .container__content__small-card {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-start;
   gap: 0.5rem;
 }
 .small-card__picture {
@@ -12,6 +12,7 @@
   border-radius: 0.5rem;
   width: 100%;
   object-fit: fill;
+  box-shadow: 0px 2px 5px #000;
 }
 
 .small-card__title {
